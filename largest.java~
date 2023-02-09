@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class largest {
+  public static void main(String[]args){
+    Scanner sn = new Scanner(System.in);
+    System.out.print("Enter array:");
+    int x[4] = sn.nextInt();
+    for (int =0;i<=4;i++){
+      System.out.printf("arrayx[%d]: %d",i,x[i]);
+    }
+  }
+}

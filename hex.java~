@@ -1,0 +1,9 @@
+import javax.swing.JOptionPane;
+import java.util.Scanner;
+public class hex{
+  public static void main (String[]args){
+   Scanner sn = new Scanner(System.in);
+   System.out.print("Input Your binary number:");
+   String x = sn.nextLine();
+  }
+}
